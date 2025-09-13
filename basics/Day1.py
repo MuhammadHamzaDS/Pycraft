@@ -1,35 +1,10 @@
-# # Python Intro Code
-
-# # 1️⃣ Print Statement
-# print("Hello, World!")   # Screen par output dikhata hai
-
-# # 2️⃣ Variables
-# name = "Hamza"           # String variable
-# age = 21                 # Integer variable
-# height = 5.9             # Float variable
-# is_student = True        # Boolean variable
-
-# # 3️⃣ Print Variables
-# print("Name:", name)
-# print("Age:", age)
-# print("Height:", height)
-# print("Student:", is_student)
-
-# # 4️⃣ Basic Arithmetic
-# a = 10
-# b = 5
-# print("Addition:", a + b)
-# print("Subtraction:", a - b)
-# print("Multiplication:", a * b)
-# print("Division:", a / b)
-
-# # 5️⃣ Simple Input
-# user_name = input("Enter your name: ")
-# print("Welcome,", user_name)
-
-print("Assalamo Alaikum")
-name = "Hamza"
-age = 22
-print(name,age)
-is_student = True
-print(is_student)
+spam_amount = 0
+print (spam_amount)
+spam_amount = spam_amount + 8
+if spam_amount > 0:
+    print("MY Name is Hamza,And I am a Python Developer")
+    count = "Hamza" * spam_amount
+    print(count)
+    
+print(type(spam_amount))
+print(type(19.89))
