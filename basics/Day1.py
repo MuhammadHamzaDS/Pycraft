@@ -6,6 +6,7 @@ if spam_amount > 0:
     count = "Hamza" * spam_amount
     print(count)
     
+    # These All are the Built-in Functions
 print(type(spam_amount))
 print(type(19.89))
 hat_height = 25.4
@@ -25,3 +26,21 @@ print(round(3.14159, 2))
 print(pow(2, 3))
 # is me 4 modulos hai pow(2, 3, 4)   # (2^3) % 4
 print(pow(2, 3, 4))
+name = "Hamza"
+print(len(name))   # 5
+num = "25"
+print(int(num) + 5)   # 30
+numbers = [2, 8, 1, 6]
+print(max(numbers))  # 8
+print(min(numbers))  # 1
+marks = [70, 80, 90]
+print(sum(marks))   # 240
+name = input("Apna naam likho: ")
+print("Hello,", name)
+print(round(3.7))   # 4
+print(round(3.2))   # 3
+nums = [4, 2, 9, 1]
+print(sorted(nums))   # [1, 2, 4, 9]
+for i in range(5):
+    print(i)   # 0,1,2,3,4
+
