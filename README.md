@@ -1,11 +1,12 @@
 # 🐍 PyCraft
 
-Welcome to **PyCraft** — a collection of Python codes, experiments, and projects crafted with logic, creativity, and learning in mind.  
+Welcome to **PyCraft** — a collection of Python codes, experiments, and projects crafted with logic, creativity, and learning in mind.
 This repository documents my journey in mastering Python, from basics to advanced concepts. 🚀
 
 ---
 
 ## 📌 What's Inside?
+
 - 🔹 Beginner-friendly examples (variables, loops, functions, etc.)
 - 🔹 Problem-solving exercises & coding practice
 - 🔹 Mini projects to strengthen Python logic
@@ -14,6 +15,7 @@ This repository documents my journey in mastering Python, from basics to advance
 ---
 
 ## 📂 Repository Structure
+
 ```
 PyCraft/
 │── basics/         # Beginner Python programs
@@ -26,6 +28,7 @@ PyCraft/
 ---
 
 ## 🚀 Getting Started
+
 To run the code in this repository:
 
 ```bash
@@ -42,22 +45,26 @@ python filename.py
 ---
 
 ## 🎯 Goals
-- Document my Python learning journey  
-- Build small but impactful projects  
-- Share knowledge with the community  
+
+- Document my Python learning journey
+- Build small but impactful projects
+- Share knowledge with the community
 
 ---
 
 ## 🤝 Contributing
-This is primarily a **personal learning repo**, but suggestions, improvements, and ideas are always welcome.  
+
+This is primarily a **personal learning repo**, but suggestions, improvements, and ideas are always welcome.
 
 ---
 
 ## 📜 License
-This repository is licensed under the **MIT License** — feel free to use the code for learning and projects.  
+
+This repository is licensed under the **MIT License** — feel free to use the code for learning and projects.
 
 ---
 
 ## ✨ Author
-👤 **Muhammad Hamza**  
+
+👤 **Muhammad Hamza**
 📧 Connect with me: [https://github.com/MuhammadHamza2233](https://github.com/MuhammadHamza2233)
