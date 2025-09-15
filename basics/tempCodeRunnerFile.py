@@ -1,1 +1,2 @@
-lp(round)
+mystery = print()
+print(mystery)
