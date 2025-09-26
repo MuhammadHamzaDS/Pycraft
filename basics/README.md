@@ -22,49 +22,70 @@ the header of that function round(number, ndigits=None). In this case, this tell
 A brief English description of what the function does.
 
 """
-===========================================================
-                  PYTHON DECORATORS - THEORY
-===========================================================
+===============================================================
+                🚀 PYTHON DECORATORS - THEORY 🚀
+===============================================================
 
-🔹 1. Introduction
-    - A decorator in Python is simply a function that takes another 
-      function as input and extends or modifies its behavior.
-    - It allows us to add extra features to existing code 
-      without changing the original function.
-    - Think of it as "wrapping" a function with additional logic.
+📌 1. What is a Decorator?
+---------------------------------------------------------------
+- A decorator is a function in Python that allows you to modify 
+  or extend the behavior of another function or class 
+  without changing its source code.
+- In simple words:
+      "A decorator is a wrapper around a function."
 
-🔹 2. Why Use Decorators?
-    ✅ Code reusability (write once, use everywhere).
-    ✅ Keep functions clean (no need to edit original code).
-    ✅ Useful for logging, authentication, timing, caching, etc.
-    ✅ Follows DRY principle (Don’t Repeat Yourself).
+---------------------------------------------------------------
+📌 2. Why Do We Use Decorators?
+---------------------------------------------------------------
+✅ Add extra functionality to functions without editing them.  
+✅ Keep code clean and maintainable.  
+✅ Reuse logic (Don’t Repeat Yourself - DRY Principle).  
+✅ Commonly used for:
+    - Logging
+    - Authentication
+    - Measuring execution time
+    - Access control
+    - Debugging
 
-🔹 3. How Do They Work?
-    - A decorator is a higher-order function.
-    - It usually defines an inner function (called a wrapper).
-    - The wrapper adds extra behavior before/after the target function.
-    - Finally, the decorator returns this wrapper.
+---------------------------------------------------------------
+📌 3. How Do Decorators Work?
+---------------------------------------------------------------
+- A decorator is a higher-order function (takes another function as input).
+- Inside it, we define a **wrapper function**.
+- The wrapper adds extra behavior before and/or after 
+  the original function call.
+- Finally, the decorator returns this wrapper.
 
-    Example (conceptually):
-        @decorator_function
-        def my_function():
-            pass
+Syntax:
+    @decorator_function
+    def my_function():
+        pass
 
-    Equivalent to:
-        my_function = decorator_function(my_function)
+This is equivalent to:
+    my_function = decorator_function(my_function)
 
-🔹 4. Steps of a Decorator
-    1. Define a decorator function.
-    2. Inside it, create a wrapper function.
-    3. Add extra code before/after calling the original function.
-    4. Return the wrapper function.
-    5. Use '@decorator' above the target function.
+---------------------------------------------------------------
+📌 4. Steps to Create a Decorator
+---------------------------------------------------------------
+1️⃣ Define a decorator function.  
+2️⃣ Inside it, define a wrapper function.  
+3️⃣ Add any extra logic in wrapper.  
+4️⃣ Call the original function inside wrapper.  
+5️⃣ Return the wrapper.  
+6️⃣ Use '@decorator' above the target function.  
 
-🔹 5. Real-Life Analogy
-    - Imagine you are drinking tea ☕.
-    - The tea (main function) is the same.
-    - But you can add sugar, milk, or ginger (decorators).
-    - The base tea does not change, but its behavior (taste) is enhanced.
+---------------------------------------------------------------
+📌 5. Real-Life Analogy
+---------------------------------------------------------------
+Imagine you have a cup of tea ☕:
+- Base tea = Original function  
+- Sugar, milk, lemon = Decorators  
+- The tea (function) stays the same, but its taste (behavior) changes.  
 
-===========================================================
+---------------------------------------------------------------
+📌 6. Key Takeaway
+---------------------------------------------------------------
+👉 A decorator = Function + Extra Features (without touching original code)  
+
+===============================================================
 """
