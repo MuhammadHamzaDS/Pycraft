@@ -21,11 +21,8 @@ Finally, addition and subtraction are evaluated from **left to right**.
 the header of that function round(number, ndigits=None). In this case, this tells us that round() takes an argument we can describe as number. Additionally, we can optionally give a separate argument which could be described as ndigits.
 A brief English description of what the function does.
 
-"""
-===============================================================
-                🚀 📌Decorators In Python🚀
-===============================================================
-
+📌 Decorators In Python
+---------------------------------------------------------------
 📌 1. What is a Decorator?
 ---------------------------------------------------------------
 - A decorator is a function in Python that allows you to modify 
