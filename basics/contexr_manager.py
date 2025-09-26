@@ -15,6 +15,8 @@ with open("data.txt", "w") as f:
     f.write("My Name is Muhammad Hamza\n")
     f.write("SP23-BCS-093")
 
-with open("data.txt","r") as f:
-    data = f.read()
-    print (data)
+# Agar overwrite nahi karna (sirf add karna ho)
+# with open("data.txt","r") as f:
+#     data = f.read()
+#     print (data)with open("data.txt", "a") as f:
+#     f.write("Ye line end me add hogi.\n")
