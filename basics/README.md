@@ -23,7 +23,7 @@ A brief English description of what the function does.
 
 """
 ===============================================================
-                🚀 PYTHON DECORATORS - THEORY 🚀
+                🚀 📌Decorators In Python🚀
 ===============================================================
 
 📌 1. What is a Decorator?
