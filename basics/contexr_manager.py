@@ -5,7 +5,9 @@
 with open("data.txt", "w") as f:
     f.write("Hello Hamza!\n")
     f.write("This is written using context manager.\n")
-
+with open("data.txt", "w") as f:
+    f.write("Hello I am Data Scientist!\n")
+    f.write("This is written using context manager.\n")
 # Read
 with open("data.txt", "r") as f:
     data = f.read()
