@@ -11,3 +11,12 @@ file = open("data.txt", "r")
 content = file.read()
 print(content)
 file.close()
+
+file = open("data.txt", "w")
+file.write("Hello Hamza! This is file handling in Python.\n")
+file.close()
+
+
+file = open("myfile.txt", "a")
+file.write("Adding more content at the end.\n")
+file.close()
