@@ -24,6 +24,7 @@ print(abs(9.8))
 print(round(3.14159))
 print(round(3.14159, 2))
 print(pow(2, 3))
+print(pow(5, 5))
 # is me 4 modulos hai pow(2, 3, 4)   # (2^3) % 4
 print(pow(2, 3, 4))
 name = "Hamza"
