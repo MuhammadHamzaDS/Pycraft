@@ -46,3 +46,5 @@ for i in range(5):
     print(i)   # 0,1,2,3,4
 
 print("My name is hamza what is your name")
+for i in range(10):
+    print(i) 
