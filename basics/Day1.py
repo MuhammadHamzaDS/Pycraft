@@ -26,10 +26,10 @@ print(round(3.14159, 2))
 print(pow(2, 3))
 print(pow(5, 5))
 # is me 4 modulos hai pow(2, 3, 4)   # (2^3) % 4
-print(pow(2, 3, 4))
+print(pow(3, 3, 4))
 name = "Hamza"
 print(len(name))   # 5
-num = "25"
+num = "23"
 print(int(num) + 5)   # 30
 numbers = [2, 8, 1, 6]
 print(max(numbers))  # 8
