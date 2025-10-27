@@ -18,7 +18,7 @@ def hello(func):
     def wrapper ():
         print("Hello Hamza Bhai")
         func()
-        print("Hello Hamza Bhai Ye End Statement Hai")
+        print("YE function k baad wali hai")
     return wrapper
 
 @hello 
